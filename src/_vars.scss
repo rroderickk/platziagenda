@@ -1,0 +1,38 @@
+:root {
+	--white: #ffffff;
+	--black: #000000;
+	--very-light-pink: #c7c7c7;
+	--text-input-field: #f7f7f7;
+	--hospital-green: #acd9b2;
+	--udea:#054973;
+	--grisUdea: #dee2e6;
+	--oscuroUdea: #00000080;
+	--background: #181819;
+	--black1: #1b1b1b;
+	--black2: #1b1b1a;
+	--customcrimson: #e51937 !important;
+	--customgris: #4E4E4E;
+	--customgris2: #D7D7D7;
+	--customgris3: #a0a0a0;
+	--azulplatzi: #111e3c;
+	--takuya: #ecf2fe;
+	--barlow: "Barlow Semi Condensed";
+	--source: "Source Sans Pro";
+}
+.textgradient{
+  background: linear-gradient(45deg, rgba(155,100,249,1) 7%, rgba(98,135,252,1) 47%, rgba(90,140,252,1) 53%, rgba(18,167,252,1) 90%)!important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+.textgradient:hover{
+	transition: 4s all ease;
+  background: linear-gradient(45deg, rgba(155,100,249,1) 7%, rgba(98,135,252,1) 47%, rgba(90,140,252,1) 53%, rgba(18,167,252,1) 90%)!important;
+  -webkit-text-fill-color: white !important;
+}
+.textgradient:active{
+	background: cyan!important;
+}
+
+.adorno{
+  background: linear-gradient(45deg, rgba(155,100,249,1) 7%, rgba(98,135,252,1) 47%, rgba(90,140,252,1) 53%, rgba(18,167,252,1) 90%)!important;
+}
